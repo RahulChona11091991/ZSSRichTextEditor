@@ -93,6 +93,11 @@ static NSString * const ZSSRichTextEditorToolbarFonts = @"com.zedsaid.toolbarite
  */
 @property (nonatomic, strong) NSArray *enabledToolbarItems;
 
+/*
+ *  CGRect for holding the frame for the editor view
+ */
+@property (nonatomic) CGRect editorViewFrame;
+
 /**
  *  Color to tint the toolbar items
  */
