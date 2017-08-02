@@ -117,11 +117,6 @@ static Class hackishFixClass = Nil;
 @property (nonatomic, strong) ZSSTextView *sourceView;
 
 /*
- *  CGRect for holding the frame for the editor view
- */
-@property (nonatomic) CGRect editorViewFrame;
-
-/*
  *  BOOL for holding if the resources are loaded or not
  */
 @property (nonatomic) BOOL resourcesLoaded;
